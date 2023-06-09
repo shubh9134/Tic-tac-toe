@@ -49,7 +49,7 @@
   .k {
     transform: translate(75%);
     text-align: center;
-    background-color: cadetblue;
+    background-color:teal;
     font-size  : 100px
   }
   
@@ -64,10 +64,12 @@
   }
   
   .square {
-    transform: translate(590%,100%);
-    background: #ffff;
+    position : relative;
+    background:burlywood;
     border: 1px solid #999;
     float: left;
+    left : 620px;
+    top : 100px;
     font-size: 80px;
     font-weight: bold;
     line-height:56px;
@@ -77,7 +79,6 @@
     padding: 0;
     text-align: center;
     width: 100px;
-    top : 50%
   }
   
   .board-row:after {
@@ -88,7 +89,9 @@
   
   .status {
     font-size : 30px;
-    transform: translate(170%,1000%);
+    position: relative;
+    left : 1000px;
+    top: 300px;
     font-weight: bold;
     font-family :'Times New Roman', Times, serif ;
     font-display:initial;
@@ -101,9 +104,11 @@
   .game-info {
     background-color: gray;
     border-color: black;
-    width : 15%;
+    width : 250px;
     font-size: 20px;
-    transform : translate(-170%,50%)
+    position : relative;
+    right : 300px;
+    top : 200px;
   }
   .sidebut{
     font-size : 20px;
